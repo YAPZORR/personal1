@@ -1,0 +1,824 @@
+/********************************************TAG SELECTOR *************************************************/
+body{
+    background-color: #000000;
+    margin: 0;
+}
+
+        hr{
+            
+            border-style: dotted none none;
+            border-color: #002B5B;
+            border-width: 10px;
+            width: 7%;
+            
+        }
+.headh1{
+    position: absolute;
+    height: 200px;
+    font-size: 50px;
+    margin-top: 100px;
+    left: 580px;
+    font-family: 'Permanent Marker', cursive;
+    
+    color: #610094;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(227, 9, 235),
+    0 0 82px rgb(255, 0, 200),
+    0 0 92px rgb(255, 0, 221),
+    0 0 102px rgb(241, 7, 151),
+    0 0 151px rgb(255, 0, 157);
+}
+h3{
+    color: #25316D;
+    
+}
+
+p{
+    color: #002B5B;
+    font-size: 20px;
+    
+    
+}
+li{
+    color: #256D85;
+}
+a{
+    color: #256D85 ;
+}
+td{
+    color: #256D85
+}
+th{
+    color: #25316D
+}
+
+/********************************************HOVER SELECTOR *************************************************/
+h1:hover{
+    
+    transition: background-color 0.5s;
+    color: #032bdf;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px rgb(24, 9, 235),
+      0 0 82px rgb(4, 0, 255),
+      0 0 92px rgb(0, 153, 255),
+      0 0 102px rgb(7, 147, 241),
+      0 0 151px rgb(4, 0, 255);
+      cursor: pointer;
+}
+.name:hover{
+    color: rgb(114, 4, 105);
+    transition: background-color 0.5s;
+    color: #610094;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(227, 9, 235),
+    0 0 82px rgb(255, 0, 200),
+    0 0 92px rgb(255, 0, 221),
+    0 0 102px rgb(241, 7, 151),
+    0 0 151px rgb(255, 0, 157);
+    cursor: pointer;
+}
+.input4:hover{
+    cursor: pointer;
+    color: #111;
+        background: #f714ff;
+        box-shadow: 0 0 50px #ff1482;
+}
+.head1-a:hover{
+  transition: background-color 0.5s;
+  color: #f1ee0c;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px rgb(243, 243, 243),
+    0 0 21px #fff,
+    0 0 42px rgb(241, 245, 5),
+    0 0 82px rgb(236, 221, 3),
+    0 0 92px rgb(236, 202, 6),
+    0 0 102px rgb(255, 255, 255),
+    0 0 151px rgb(255, 255, 255);
+}
+.head2-a:hover{
+  transition: background-color 0.5s;
+  color: #f1ee0c;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px rgb(243, 243, 243),
+    0 0 21px #fff,
+    0 0 42px rgb(241, 245, 5),
+    0 0 82px rgb(236, 221, 3),
+    0 0 92px rgb(236, 202, 6),
+    0 0 102px rgb(255, 255, 255),
+    0 0 151px rgb(255, 255, 255);
+}
+.head3-a:hover{
+  transition: background-color 0.5s;
+  color: #f1ee0c;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px rgb(243, 243, 243),
+    0 0 21px #fff,
+    0 0 42px rgb(241, 245, 5),
+    0 0 82px rgb(236, 221, 3),
+    0 0 92px rgb(236, 202, 6),
+    0 0 102px rgb(255, 255, 255),
+    0 0 151px rgb(255, 255, 255);
+}
+.head4-a:hover{
+  transition: background-color 0.5s;
+  color: #f1ee0c;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px rgb(243, 243, 243),
+    0 0 21px #fff,
+    0 0 42px rgb(241, 245, 5),
+    0 0 82px rgb(236, 221, 3),
+    0 0 92px rgb(236, 202, 6),
+    0 0 102px rgb(255, 255, 255),
+    0 0 151px rgb(255, 255, 255);
+}
+/********************************************CLASS SELECTOR *************************************************/
+.head{
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/upwk62595332-wikimedia-image.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=c99ef6c54e683be5d12b3d1cbafd7778");
+    margin-top: 0px;
+    margin-left: 0px;
+    
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    background-size: 100%;
+    height: 700px;
+    
+}
+    
+.linep{
+    position: relative;
+    top: 250px;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: #f8f5fa;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px rgb(243, 243, 243),
+      0 0 21px #fff,
+      0 0 42px rgb(227, 9, 235),
+      0 0 82px rgb(255, 0, 200),
+      0 0 92px rgb(255, 0, 221),
+      0 0 102px rgb(251, 250, 252),
+      0 0 151px rgb(241, 239, 241);
+    
+    
+    
+}
+.imghead{
+    height: 100;
+    width: 200;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-left: 0px;
+    margin-top: 0;
+}
+.imgdivhead{
+    background-color: #000000;
+}
+.body{
+    background-color: #000000;
+    background-image: url("https://i.kym-cdn.com/photos/images/original/000/848/668/547.gif");
+    margin-top: 100px;
+    margin-left: 0px;
+    padding-left: 450px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    background-size: 100%;
+    height: 450px;
+    background-size: 1000px 300px;
+    background-position: center;
+
+}
+.bodyp{
+    margin-top: 300px;
+    font-family: 'Concert One', cursive;
+    font-size: 28px;
+    position: absolute;
+    left: 200px;
+    color: #ffffff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px rgb(243, 243, 243),
+      0 0 21px #fff,
+      0 0 42px rgb(43, 4, 134),
+      0 0 82px rgb(4, 4, 209),
+      0 0 92px rgb(2, 36, 105),
+      0 0 102px rgb(255, 255, 255),
+      0 0 151px rgb(255, 255, 255);
+}
+
+.fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        color: #f8f5fa;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px rgb(243, 243, 243),
+      0 0 21px #fff,
+      0 0 42px rgb(227, 9, 235),
+      0 0 82px rgb(255, 0, 200),
+      0 0 92px rgb(255, 0, 221),
+      0 0 102px rgb(251, 250, 252),
+      0 0 151px rgb(241, 239, 241);
+
+      }
+.fa:hover {
+        opacity: 0.7;
+    }
+.fa-facebook {
+        background: #3B5998;
+        color: white;
+        text-shadow:
+      0 0 7px #fff,
+      0 0 10px rgb(243, 243, 243),
+      0 0 21px #fff,
+      0 0 42px rgb(227, 9, 235),
+      0 0 82px rgb(255, 0, 200),
+      0 0 92px rgb(255, 0, 221),
+      0 0 102px rgb(251, 250, 252),
+      0 0 151px rgb(241, 239, 241);
+
+        
+      }
+.fa-youtube {
+        background: #c40202;
+        color: white;
+      }
+.fa-twitter{
+        background:rgb(4, 151, 170)0;
+        color: white;
+}
+.toe{
+    background-color: #000000;
+    background-image: url("https://media.istockphoto.com/photos/neon-console-gamepad-on-black-background-3d-illustration-of-gaming-picture-id1255242690?k=20&m=1255242690&s=170667a&w=0&h=9P3oxGxYCQ6BSVlTb-bz-awLCm6RTx8cYXL1ydJ7myc=");
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100%;
+    
+    
+   
+}
+.hide{
+    visibility: hidden;
+}
+.name{
+    color: #1505fc;
+    font-family: 'Rock Salt', cursive;
+    text-shadow:
+      0 0 7px rgb(5, 245, 233),
+      0 0 10px rgb(243, 243, 243),
+      0 0 21px #fff,
+      0 0 42px rgb(5, 30, 255),
+      0 0 82px rgb(4, 0, 255),
+      0 0 92px rgb(25, 0, 255),
+      0 0 102px rgb(251, 250, 252),
+      0 0 151px rgb(241, 239, 241);
+}
+.headerimg{
+    height: 100px;
+    width: 100px;
+    margin-left: 200px;
+}
+.header{
+    background-color: #000000;
+    height: 100px;
+    position: absolute;
+}
+.nav{
+    margin-top: 30px;
+    position: absolute;
+    margin-left: 1000px;
+}
+.head-a{
+    text-decoration: none;
+    font-size: 27px;
+   
+
+}
+
+    
+
+.abouth3{
+    
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Rock Salt', cursive;
+    color: #f8f5fa;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px rgb(243, 243, 243),
+      0 0 21px #fff,
+      0 0 42px rgb(227, 9, 235),
+      0 0 82px rgb(255, 0, 200),
+      0 0 92px rgb(255, 0, 221),
+      0 0 102px rgb(251, 250, 252),
+      0 0 151px rgb(241, 239, 241);
+    
+}
+.lineh3{
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    font-size: 28px;
+    margin-top: 600px;
+    color: #f8f5fa;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px rgb(243, 243, 243),
+      0 0 21px #fff,
+      0 0 42px rgb(227, 9, 235),
+      0 0 82px rgb(255, 0, 200),
+      0 0 92px rgb(255, 0, 221),
+      0 0 102px rgb(251, 250, 252),
+      0 0 151px rgb(241, 239, 241);
+
+}
+
+.skill-img1{
+    position: absolute;
+    height: 150px;
+    width: 200;
+    left: 400px;
+    margin-top: 0px;
+    
+}
+.toeimg{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin-top: 0px;
+    left: 200px;
+}
+
+.skill-body{
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    font-size: 28px;
+    color: #f8f5fa;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px rgb(243, 243, 243),
+      0 0 21px #fff,
+      0 0 42px rgb(227, 9, 235),
+      0 0 82px rgb(255, 0, 200),
+      0 0 92px rgb(255, 0, 221),
+      0 0 102px rgb(251, 250, 252),
+      0 0 151px rgb(241, 239, 241);
+
+    
+}
+.skill-body2{
+
+    padding-left: 800px;
+    margin-top: 200px;
+    font-family: 'Rock Salt', cursive;
+    color: #f8f5fa;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px rgb(243, 243, 243),
+      0 0 21px #fff,
+      0 0 42px rgb(227, 9, 235),
+      0 0 82px rgb(255, 0, 200),
+      0 0 92px rgb(255, 0, 221),
+      0 0 102px rgb(251, 250, 252),
+      0 0 151px rgb(241, 239, 241);
+}
+.skill-body3{
+    
+    padding-left: 600px;
+    
+    width: 500px;
+    text-align: right;
+    font-family: 'Concert One', cursive;
+    color: #f7f7f7;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px rgb(243, 243, 243),
+      0 0 21px #fff,
+      0 0 42px rgb(8, 5, 219),
+      0 0 82px rgb(22, 6, 241),
+      0 0 92px rgb(11, 33, 233),
+      0 0 102px rgb(229, 153, 229),
+      0 0 151px rgb(238, 201, 238);
+}
+.skills{
+  
+    margin-top: 200px;
+    margin-left: 0px;
+   
+    
+    
+}
+.skill-row1{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin: 0;
+}
+.skill2img{
+    position: absolute;
+    height: 150px;
+    width: 200;
+    left: 978px;
+    
+    
+}
+.skill2-body2{
+    
+    margin-top: 200px;
+    padding-left: 400px;
+    font-family: 'Rock Salt', cursive;
+    color: #f8f5fa;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px rgb(243, 243, 243),
+      0 0 21px #fff,
+      0 0 42px rgb(227, 9, 235),
+      0 0 82px rgb(255, 0, 200),
+      0 0 92px rgb(255, 0, 221),
+      0 0 102px rgb(251, 250, 252),
+      0 0 151px rgb(241, 239, 241);
+}
+
+.skill2-body3{
+    
+    padding-left: 400px;
+    font-family: 'Concert One', cursive;
+    color: #f7f7f7;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px rgb(243, 243, 243),
+      0 0 21px #fff,
+      0 0 42px rgb(8, 5, 219),
+      0 0 82px rgb(22, 6, 241),
+      0 0 92px rgb(11, 33, 233),
+      0 0 102px rgb(229, 153, 229),
+      0 0 151px rgb(238, 201, 238);
+    color: #ffffff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px rgb(243, 243, 243),
+      0 0 21px #fff,
+      0 0 42px rgb(43, 6, 250),
+      0 0 82px rgb(0, 89, 255),
+      0 0 92px rgb(3, 65, 233),
+      0 0 102px rgb(251, 250, 252),
+      0 0 151px rgb(241, 239, 241);
+}
+
+
+.skill3img{
+    position: absolute;
+    height: 150px;
+    width: 200;
+    left: 400px;
+    margin-top: 0px;
+}
+.skill3-body2{
+    padding-left: 870px;
+    margin-top: 200px;
+    
+    font-family: 'Rock Salt', cursive;
+    color: #f8f5fa;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px rgb(243, 243, 243),
+      0 0 21px #fff,
+      0 0 42px rgb(227, 9, 235),
+      0 0 82px rgb(255, 0, 200),
+      0 0 92px rgb(255, 0, 221),
+      0 0 102px rgb(251, 250, 252),
+      0 0 151px rgb(241, 239, 241);
+}
+
+.skill3-body3{
+    padding-left: 600px;
+    width: 500px;
+    font-family: 'Concert One', cursive;
+    color: #f7f7f7;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px rgb(243, 243, 243),
+      0 0 21px #fff,
+      0 0 42px rgb(8, 5, 219),
+      0 0 82px rgb(22, 6, 241),
+      0 0 92px rgb(11, 33, 233),
+      0 0 102px rgb(229, 153, 229),
+      0 0 151px rgb(238, 201, 238);
+    text-align: right;
+    color: #ffffff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px rgb(243, 243, 243),
+      0 0 21px #fff,
+      0 0 42px rgb(43, 6, 250),
+      0 0 82px rgb(0, 89, 255),
+      0 0 92px rgb(3, 65, 233),
+      0 0 102px rgb(251, 250, 252),
+      0 0 151px rgb(241, 239, 241);
+}
+.contact-me{
+    margin-top: 300px;
+    
+}
+.getin{
+    font-size: 28px;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    color: #f8f5fa;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px rgb(243, 243, 243),
+      0 0 21px #fff,
+      0 0 42px rgb(227, 9, 235),
+      0 0 82px rgb(255, 0, 200),
+      0 0 92px rgb(255, 0, 221),
+      0 0 102px rgb(251, 250, 252),
+      0 0 151px rgb(241, 239, 241);
+}
+.getform{
+    margin-top: 100px;
+    
+}
+.getlabel1{
+    margin-left: 440px;
+    margin-bottom: 20px;
+    font-size: 27px;
+    color: #ffffff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px rgb(243, 243, 243),
+      0 0 21px #fff,
+      0 0 42px rgb(43, 6, 250),
+      0 0 82px rgb(0, 89, 255),
+      0 0 92px rgb(3, 65, 233),
+      0 0 102px rgb(251, 250, 252),
+      0 0 151px rgb(241, 239, 241);
+}
+.getlabel2{
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 20px;
+    font-size: 27px;
+    color: #ffffff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px rgb(243, 243, 243),
+      0 0 21px #fff,
+      0 0 42px rgb(43, 6, 250),
+      0 0 82px rgb(0, 89, 255),
+      0 0 92px rgb(3, 65, 233),
+      0 0 102px rgb(251, 250, 252),
+      0 0 151px rgb(241, 239, 241);
+}
+.getlabel3{
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 50px;
+    font-size: 27px;
+    color: #ffffff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px rgb(243, 243, 243),
+      0 0 21px #fff,
+      0 0 42px rgb(43, 6, 250),
+      0 0 82px rgb(0, 89, 255),
+      0 0 92px rgb(3, 65, 233),
+      0 0 102px rgb(251, 250, 252),
+      0 0 151px rgb(241, 239, 241);
+}
+.input1{
+    margin-left: 100px;
+   
+    position: absolute;
+    height: 30px;
+}
+.input2{
+    margin-left: 793px;
+    margin-top: 20px;
+    position: absolute;
+    height: 30px;
+}
+
+.input3{
+    margin-left: 793px;
+    margin-top: 30px;
+    position: absolute;
+    height: 100px;
+    width: 166px;
+}
+.input4{
+    margin-left: 793px;
+    margin-top: 150px;
+    position: absolute;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
+/* REMOVE THIS, USE YOUR OWN  */
+
+  .dummy_page {
+    height: 200px;
+    width: 100%;
+    background-color: #f0f0f0;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 60px 0px;
+  }
+  /* STYLES SPECIFIC TO FOOTER  */
+  .footer {
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color: #070617;
+  }
+  .footer .col {
+    width: 190px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 20px 20px 20px;
+  }
+  .footer .col h1 {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    color: rgba(255,255,255,0.2);
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.250em;
+  }
+  .footer .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .footer .col ul li {
+    color: #999999;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+  }
+  .social ul li {
+    display: inline-block;
+    padding-right: 5px !important;
+  }
+  
+  .footer .col ul li:hover {
+    color: #ffffff;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+  }
+  .clearfix {
+    clear: both;
+  }
+  @media only screen and (min-width: 1280px) {
+    .contain {
+      width: 1200px;
+      margin: 0 auto;
+    }
+  }
+  @media only screen and (max-width: 1139px) {
+    .contain .social {
+      width: 1000px;
+      display: block;
+    }
+    .social h1 {
+      margin: 0px;
+    }
+  }
+  @media only screen and (max-width: 950px) {
+    .footer .col {
+      width: 33%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+      .footer .col {
+        width: 50%;
+      }
+      .footer .col h1 {
+        font-size: 14px;
+      }
+      .footer .col ul li {
+        font-size: 13px;
+      }
+  }
+  @media only screen and (max-width: 340px) {
+    .footer .col {
+      width: 100%;
+    }
+  }
+.head1-a{
+  
+  right: 800px;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: 'Rock Salt', cursive;
+    color: #f8f5fa;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px rgb(243, 243, 243),
+      0 0 21px #fff,
+      0 0 42px rgb(227, 9, 235),
+      0 0 82px rgb(255, 0, 200),
+      0 0 92px rgb(255, 0, 221),
+      0 0 102px rgb(251, 250, 252),
+      0 0 151px rgb(241, 239, 241);
+}
+.head2-a{
+  margin-left: 50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Rock Salt', cursive;
+    color: #f8f5fa;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px rgb(243, 243, 243),
+      0 0 21px #fff,
+      0 0 42px rgb(227, 9, 235),
+      0 0 82px rgb(255, 0, 200),
+      0 0 92px rgb(255, 0, 221),
+      0 0 102px rgb(251, 250, 252),
+      0 0 151px rgb(241, 239, 241);
+}
+.head3-a{
+  margin-left: 50px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Rock Salt', cursive;
+    color: #f8f5fa;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px rgb(243, 243, 243),
+      0 0 21px #fff,
+      0 0 42px rgb(227, 9, 235),
+      0 0 82px rgb(255, 0, 200),
+      0 0 92px rgb(255, 0, 221),
+      0 0 102px rgb(251, 250, 252),
+      0 0 151px rgb(241, 239, 241);
+
+}
+.head4-a{
+  margin-left: 50px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Rock Salt', cursive;
+    color: #f8f5fa;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px rgb(243, 243, 243),
+      0 0 21px #fff,
+      0 0 42px rgb(227, 9, 235),
+      0 0 82px rgb(255, 0, 200),
+      0 0 92px rgb(255, 0, 221),
+      0 0 102px rgb(251, 250, 252),
+      0 0 151px rgb(241, 239, 241);
+
+}
+/********************************************ID SELECTOR *************************************************/
+#icon{
+    text-align: center;
+}
